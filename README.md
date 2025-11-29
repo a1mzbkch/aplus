@@ -2,11 +2,41 @@
 
 Современная система контроля и отчётности для транспортного отдела с темным дизайном в стиле GenSpark.
 
-## 🌐 Демо
+## 🌐 Демо и Деплой
 
-**URL**: https://3000-io6uuiufdpxxvoubszwcy-8f57ffe2.sandbox.novita.ai
+### GitHub Repository
+**URL**: https://github.com/a1mzbkch/aplus
 
+### Доступ к демо
 **Логин**: `admin` / **Пароль**: `admin`
+
+### 🚀 Деплой на Vercel (Рекомендуется)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/a1mzbkch/aplus)
+
+**Или вручную:**
+1. Зайдите на [vercel.com](https://vercel.com)
+2. Нажмите "Add New Project"
+3. Импортируйте репозиторий: `https://github.com/a1mzbkch/aplus`
+4. Нажмите "Deploy"
+5. Готово! ✨
+
+### 🌩️ Деплой на Cloudflare Pages
+
+```bash
+# Установить Wrangler
+npm install -g wrangler
+
+# Логин
+wrangler login
+
+# Деплой
+cd /home/user/webapp
+npm run build
+wrangler pages deploy dist --project-name webapp
+```
+
+Подробные инструкции: см. [DEPLOY.md](DEPLOY.md)
 
 ## ✨ Реализованные функции
 
